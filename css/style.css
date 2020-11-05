@@ -29,3 +29,21 @@ h2{
   right: 0;
   background-color: green;
 }
+
+.box:nth-child(even) .discount{
+  background-color: red;
+}
+
+.box .heart{
+  display: none;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  color: red;
+}
+
+.box:hover .heart{
+  display: block;
+}
